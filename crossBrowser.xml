@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<suite name="Suite">
+	<test thread-count="2" name="chrometest">
+		<parameter name="browser" value="chrome" />
+		<parameter name="os" value="Windows" />
+ 
+		<classes>
+			<class name="testCase.TC001_UpcomingBikes" />
+			<class name="testCase.TC002_PopularModels" />
+			<class name="testCase.TC003_Login" />
+		</classes>
+	</test>
+ 
+	<test thread-count="2" name="edgetest">
+		<parameter name="os" value="Windows" />
+		<parameter name="browser" value="edge" />
+ 
+		<classes>
+			<class name="testCase.TC001_UpcomingBikes" />
+			<class name="testCase.TC002_PopularModels" />
+			<class name="testCase.TC003_Login" />
+		</classes>
+	</test><!-- Test -->
+</suite> <!-- Suite -->

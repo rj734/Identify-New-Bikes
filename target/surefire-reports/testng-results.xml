@@ -1,0 +1,231 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="4" total="15" passed="9" failed="2" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-02-06T15:52:54 IST" name="Suite" finished-at="2024-02-06T15:56:14 IST" duration-ms="199774">
+    <groups>
+      <group name="regression">
+        <method signature="TC001_UpcomingBikes.clickOnUpcomingBike()[pri:1, instance:testCase.TC001_UpcomingBikes@5876a9af]" name="clickOnUpcomingBike" class="testCase.TC001_UpcomingBikes"/>
+        <method signature="TC001_UpcomingBikes.selectHondaBrand()[pri:2, instance:testCase.TC001_UpcomingBikes@5876a9af]" name="selectHondaBrand" class="testCase.TC001_UpcomingBikes"/>
+        <method signature="TC001_UpcomingBikes.viewMoreBikeBtn()[pri:3, instance:testCase.TC001_UpcomingBikes@5876a9af]" name="viewMoreBikeBtn" class="testCase.TC001_UpcomingBikes"/>
+        <method signature="TC001_UpcomingBikes.bikeDetails()[pri:4, instance:testCase.TC001_UpcomingBikes@5876a9af]" name="bikeDetails" class="testCase.TC001_UpcomingBikes"/>
+        <method signature="TC002_PopularModels.chennaiUsedCars()[pri:5, instance:testCase.TC002_PopularModels@515aebb0]" name="chennaiUsedCars" class="testCase.TC002_PopularModels"/>
+        <method signature="TC002_PopularModels.popularModels()[pri:6, instance:testCase.TC002_PopularModels@515aebb0]" name="popularModels" class="testCase.TC002_PopularModels"/>
+        <method signature="TC002_PopularModels.clickOnZigWheels()[pri:7, instance:testCase.TC002_PopularModels@515aebb0]" name="clickOnZigWheels" class="testCase.TC002_PopularModels"/>
+        <method signature="TC003_Login.loginProcess()[pri:8, instance:testCase.TC003_Login@dd8ba08]" name="loginProcess" class="testCase.TC003_Login"/>
+        <method signature="TC003_Login.selectGoogle()[pri:9, instance:testCase.TC003_Login@dd8ba08]" name="selectGoogle" class="testCase.TC003_Login"/>
+        <method signature="TC003_Login.inputEmailId()[pri:10, instance:testCase.TC003_Login@dd8ba08]" name="inputEmailId" class="testCase.TC003_Login"/>
+        <method signature="TC003_Login.validateErrorMessage()[pri:11, instance:testCase.TC003_Login@dd8ba08]" name="validateErrorMessage" class="testCase.TC003_Login"/>
+      </group> <!-- regression -->
+      <group name="sanity">
+        <method signature="TC001_UpcomingBikes.clickOnUpcomingBike()[pri:1, instance:testCase.TC001_UpcomingBikes@5876a9af]" name="clickOnUpcomingBike" class="testCase.TC001_UpcomingBikes"/>
+        <method signature="TC002_PopularModels.chennaiUsedCars()[pri:5, instance:testCase.TC002_PopularModels@515aebb0]" name="chennaiUsedCars" class="testCase.TC002_PopularModels"/>
+        <method signature="TC003_Login.loginProcess()[pri:8, instance:testCase.TC003_Login@dd8ba08]" name="loginProcess" class="testCase.TC003_Login"/>
+      </group> <!-- sanity -->
+    </groups>
+    <test started-at="2024-02-06T15:52:54 IST" name="Test" finished-at="2024-02-06T15:56:14 IST" duration-ms="199774">
+      <class name="testCase.TC002_PopularModels">
+        <test-method signature="chennaiUsedCars()[pri:5, instance:testCase.TC002_PopularModels@515aebb0]" started-at="2024-02-06T15:54:52 IST" name="chennaiUsedCars" finished-at="2024-02-06T15:55:05 IST" duration-ms="12289" status="FAIL">
+          <exception class="org.openqa.selenium.ElementNotInteractableException">
+            <message>
+              <![CDATA[element not interactable
+  (Session info: MicrosoftEdge=121.0.2277.98)
+Build info: version: '4.15.0', revision: '1d14b5521b'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.2'
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Command: [f76ede5389f4457f63c30a38e79b22e9, clickElement {id=569C51519CF785FEDAC70D600C81187C_element_224}]
+Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 121.0.2277.98, fedcm:accounts: true, ms:edgeOptions: {debuggerAddress: localhost:60675}, msedge: {msedgedriverVersion: 121.0.2277.106 (3a400d91a81..., userDataDir: C:\Users\2303451\AppData\Lo...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:60675/devtoo..., se:cdpVersion: 121.0.2277.98, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[EdgeDriver: MicrosoftEdge on windows (f76ede5389f4457f63c30a38e79b22e9)] -> xpath: //div[@class='h-dd-r']/ul/li[4]/span]
+Session ID: f76ede5389f4457f63c30a38e79b22e9]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.ElementNotInteractableException: element not interactable
+  (Session info: MicrosoftEdge=121.0.2277.98)
+Build info: version: '4.15.0', revision: '1d14b5521b'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.2'
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Command: [f76ede5389f4457f63c30a38e79b22e9, clickElement {id=569C51519CF785FEDAC70D600C81187C_element_224}]
+Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 121.0.2277.98, fedcm:accounts: true, ms:edgeOptions: {debuggerAddress: localhost:60675}, msedge: {msedgedriverVersion: 121.0.2277.106 (3a400d91a81..., userDataDir: C:\Users\2303451\AppData\Lo...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:60675/devtoo..., se:cdpVersion: 121.0.2277.98, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[EdgeDriver: MicrosoftEdge on windows (f76ede5389f4457f63c30a38e79b22e9)] -> xpath: //div[@class='h-dd-r']/ul/li[4]/span]
+Session ID: f76ede5389f4457f63c30a38e79b22e9
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:52)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:191)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:200)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:175)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:607)
+at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:224)
+at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:77)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
+at jdk.proxy2/jdk.proxy2.$Proxy27.click(Unknown Source)
+at pageObject.PopularModels.mouseHoverUsedCars(PopularModels.java:50)
+at testCase.TC002_PopularModels.chennaiUsedCars(TC002_PopularModels.java:20)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:969)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:829)
+at org.testng.TestRunner.run(TestRunner.java:602)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:437)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:431)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:391)
+at org.testng.SuiteRunner.run(SuiteRunner.java:330)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
+at org.testng.TestNG.runSuites(TestNG.java:1099)
+at org.testng.TestNG.run(TestNG.java:1067)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:308)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:71)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:113)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.ElementNotInteractableException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- chennaiUsedCars -->
+        <test-method signature="popularModels()[pri:6, instance:testCase.TC002_PopularModels@515aebb0]" started-at="2024-02-06T15:55:05 IST" name="popularModels" finished-at="2024-02-06T15:55:27 IST" duration-ms="22076" status="FAIL">
+          <exception class="java.lang.IndexOutOfBoundsException">
+            <message>
+              <![CDATA[Index 8 out of bounds for length 0]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.IndexOutOfBoundsException: Index 8 out of bounds for length 0
+at java.base/jdk.internal.util.Preconditions.outOfBounds(Preconditions.java:64)
+at java.base/jdk.internal.util.Preconditions.outOfBoundsCheckIndex(Preconditions.java:70)
+at java.base/jdk.internal.util.Preconditions.checkIndex(Preconditions.java:266)
+at java.base/java.util.Objects.checkIndex(Objects.java:359)
+at java.base/java.util.ArrayList.get(ArrayList.java:427)
+at java.base/jdk.internal.reflect.GeneratedMethodAccessor1.invoke(Unknown Source)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementListHandler.invoke(LocatingElementListHandler.java:39)
+at jdk.proxy2/jdk.proxy2.$Proxy28.get(Unknown Source)
+at pageObject.PopularModels.displayPopularModels(PopularModels.java:69)
+at testCase.TC002_PopularModels.popularModels(TC002_PopularModels.java:29)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:969)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:829)
+at org.testng.TestRunner.run(TestRunner.java:602)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:437)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:431)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:391)
+at org.testng.SuiteRunner.run(SuiteRunner.java:330)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
+at org.testng.TestNG.runSuites(TestNG.java:1099)
+at org.testng.TestNG.run(TestNG.java:1067)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:308)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:71)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:113)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.IndexOutOfBoundsException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- popularModels -->
+        <test-method signature="clickOnZigWheels()[pri:7, instance:testCase.TC002_PopularModels@515aebb0]" started-at="2024-02-06T15:55:27 IST" name="clickOnZigWheels" finished-at="2024-02-06T15:55:59 IST" duration-ms="32155" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickOnZigWheels -->
+      </class> <!-- testCase.TC002_PopularModels -->
+      <class name="testCase.TC001_UpcomingBikes">
+        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testCase.TC001_UpcomingBikes@5876a9af]" started-at="2024-02-06T15:52:54 IST" name="setup" finished-at="2024-02-06T15:53:38 IST" duration-ms="43684" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Windows]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="clickOnUpcomingBike()[pri:1, instance:testCase.TC001_UpcomingBikes@5876a9af]" started-at="2024-02-06T15:53:38 IST" name="clickOnUpcomingBike" finished-at="2024-02-06T15:54:11 IST" duration-ms="33513" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickOnUpcomingBike -->
+        <test-method signature="selectHondaBrand()[pri:2, instance:testCase.TC001_UpcomingBikes@5876a9af]" started-at="2024-02-06T15:54:12 IST" name="selectHondaBrand" finished-at="2024-02-06T15:54:47 IST" duration-ms="35741" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- selectHondaBrand -->
+        <test-method signature="viewMoreBikeBtn()[pri:3, instance:testCase.TC001_UpcomingBikes@5876a9af]" started-at="2024-02-06T15:54:48 IST" name="viewMoreBikeBtn" finished-at="2024-02-06T15:54:48 IST" duration-ms="82" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- viewMoreBikeBtn -->
+        <test-method signature="bikeDetails()[pri:4, instance:testCase.TC001_UpcomingBikes@5876a9af]" started-at="2024-02-06T15:54:48 IST" name="bikeDetails" finished-at="2024-02-06T15:54:52 IST" duration-ms="4087" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bikeDetails -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCase.TC001_UpcomingBikes@5876a9af]" started-at="2024-02-06T15:56:13 IST" name="tearDown" finished-at="2024-02-06T15:56:14 IST" duration-ms="1241" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testCase.TC001_UpcomingBikes -->
+      <class name="testCase.TC003_Login">
+        <test-method signature="loginProcess()[pri:8, instance:testCase.TC003_Login@dd8ba08]" started-at="2024-02-06T15:55:59 IST" name="loginProcess" finished-at="2024-02-06T15:55:59 IST" duration-ms="192" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginProcess -->
+        <test-method signature="selectGoogle()[pri:9, instance:testCase.TC003_Login@dd8ba08]" started-at="2024-02-06T15:56:00 IST" name="selectGoogle" finished-at="2024-02-06T15:56:02 IST" duration-ms="2109" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- selectGoogle -->
+        <test-method signature="inputEmailId()[pri:10, instance:testCase.TC003_Login@dd8ba08]" started-at="2024-02-06T15:56:11 IST" name="inputEmailId" finished-at="2024-02-06T15:56:12 IST" duration-ms="482" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- inputEmailId -->
+        <test-method signature="validateErrorMessage()[pri:11, instance:testCase.TC003_Login@dd8ba08]" started-at="2024-02-06T15:56:12 IST" name="validateErrorMessage" finished-at="2024-02-06T15:56:12 IST" duration-ms="716" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateErrorMessage -->
+      </class> <!-- testCase.TC003_Login -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
