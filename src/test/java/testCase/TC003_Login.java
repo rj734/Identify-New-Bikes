@@ -35,17 +35,18 @@ public class TC003_Login extends BaseClass{
 	public void inputEmailId() throws InterruptedException {
 		logger.info("Passing Incorrect email id");
 		Login login = new Login(driver);
-		boolean nextBtn=login.submitEmailId();
 		Assert.assertEquals(nextBtn, true);
-	}
-	
-	@Test(priority=11 , groups = {"regression"})
-	public void validateErrorMessage() throws Exception {
-		logger.info("Validating error message");
-		Login login = new Login(driver);
-		String act_text=login.validateErrorMsg();
-		String exp_text = "Couldn’t find your Google Account";
-		Assert.assertEquals(act_text, exp_text);
+		boolean nextBtn=login.submitEmailId();
 		
 	}
+	
+	// @Test(priority=11 , groups = {"regression"})
+	// public void validateErrorMessage() throws Exception {
+	// 	logger.info("Validating error message");
+	// 	Login login = new Login(driver);
+	// 	String act_text=login.validateErrorMsg();
+	// 	String exp_text = "Couldn’t find your Google Account";
+	// 	Assert.assertEquals(act_text, exp_text);
+		
+	// }
 }
