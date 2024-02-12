@@ -19,27 +19,30 @@ public class TC001_UpcomingBikes extends BaseClass {
 		Assert.assertEquals(upcomingBikes, true);
 		
 //		take screenshot
-//		captureScreen("//screenShots//UpcomingBikes");
+	captureScreen("//screenShots//UpcomingBikes");
 
 	}
 	
 	@Test(priority=2, groups = {"regression"})
-	public void selectHondaBrand() throws InterruptedException {
+	public void selectHondaBrand() throws InterruptedException, IOException {
 		logger.info("Clicking on honda brand");
 		
 		UpcomingBikes bikes = new UpcomingBikes(driver);
 		boolean sb=bikes.selectBrand();
 		Assert.assertEquals(sb, true);
-		bikes.viewMoreBikes();
+		captureScreen("//screenShots//selectHondaBrand");
+
 	}
 	
 	@Test(priority=3 , groups = {"regression"})
-	public void viewMoreBikeBtn() throws InterruptedException {
+	public void viewMoreBikeBtn() throws InterruptedException, IOException {
 		logger.info("Clicking on view more ");
 		
 		UpcomingBikes bikes = new UpcomingBikes(driver);
 		boolean vm=bikes.viewMoreBikes();
 		Assert.assertEquals(vm, true);
+		captureScreen("//screenShots//viewMoreBtn");
+
 		
 	}
 	
@@ -49,6 +52,8 @@ public class TC001_UpcomingBikes extends BaseClass {
 		UpcomingBikes bikes = new UpcomingBikes(driver);
 		String lastBike=bikes.printBikeDetails();
 		Assert.assertEquals(lastBike, "Honda Rebel 300");
+		captureScreen("//screenShots//bikeDetails");
+
 	}
 	
 }

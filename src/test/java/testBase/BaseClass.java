@@ -124,7 +124,7 @@ public class BaseClass {
 
 		File src = ts.getScreenshotAs(OutputType.FILE);
 
-		File trg = new File("C:\\eclipse\\hackathonProject 1.zip_expanded\\hackathonproject\\screenShots\\" + tname + ".png");
+		File trg = new File("C:\\eclipse\\hackathonProject 1.zip_expanded\\hackathonproject\\" + tname + ".png");
 
 		FileUtils.copyFile(src, trg);
 

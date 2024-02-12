@@ -1,0 +1,139 @@
+11:01:36.118 [main] INFO  testCase.TC001_UpcomingBikes - ***** starting TC001_UpcomingBikes *****
+11:01:36.125 [main] INFO  testCase.TC001_UpcomingBikes - Clicking on Upcoming Bikes
+11:01:48.530 [main] INFO  testCase.TC001_UpcomingBikes - Clicking on honda brand
+11:02:07.923 [main] INFO  testCase.TC001_UpcomingBikes - Clicking on view more 
+11:02:17.978 [main] INFO  testCase.TC001_UpcomingBikes - Printing bike details
+11:02:28.096 [main] INFO  testCase.TC001_UpcomingBikes - ***** starting TC002_PopularModels *****
+11:02:28.097 [main] INFO  testCase.TC001_UpcomingBikes - Selecting used cars in Chennai
+11:02:42.211 [main] INFO  testCase.TC001_UpcomingBikes - Printing popular models
+11:02:42.237 [main] INFO  testCase.TC001_UpcomingBikes - Clicking on Zigwheels logo
+11:02:42.262 [main] INFO  testCase.TC001_UpcomingBikes - ***** starting TC003_Login *****
+11:02:42.263 [main] INFO  testCase.TC001_UpcomingBikes - Clicking on Login Button
+11:02:42.328 [main] INFO  testCase.TC001_UpcomingBikes - Selecting Google option
+11:02:42.346 [main] INFO  testCase.TC001_UpcomingBikes - Passing Incorrect email id
+11:02:42.360 [main] INFO  testCase.TC001_UpcomingBikes - Validating error message
+11:03:26.875 [main] INFO  testCase.TC001_UpcomingBikes - ***** starting TC001_UpcomingBikes *****
+11:03:26.880 [main] INFO  testCase.TC001_UpcomingBikes - Clicking on Upcoming Bikes
+11:03:54.154 [main] INFO  testCase.TC001_UpcomingBikes - Clicking on honda brand
+11:03:59.157 [main] INFO  testCase.TC001_UpcomingBikes - Clicking on view more 
+11:03:59.521 [main] INFO  testCase.TC001_UpcomingBikes - Printing bike details
+11:04:04.100 [main] INFO  testCase.TC001_UpcomingBikes - ***** starting TC002_PopularModels *****
+11:04:04.100 [main] INFO  testCase.TC001_UpcomingBikes - Selecting used cars in Chennai
+11:04:18.242 [main] INFO  testCase.TC001_UpcomingBikes - Printing popular models
+11:04:21.534 [main] INFO  testCase.TC001_UpcomingBikes - Clicking on Zigwheels logo
+11:04:30.120 [main] INFO  testCase.TC001_UpcomingBikes - ***** starting TC003_Login *****
+11:04:30.120 [main] INFO  testCase.TC001_UpcomingBikes - Clicking on Login Button
+11:04:30.653 [main] INFO  testCase.TC001_UpcomingBikes - Selecting Google option
+11:04:38.793 [main] INFO  testCase.TC001_UpcomingBikes - Passing Incorrect email id
+11:04:39.479 [main] INFO  testCase.TC001_UpcomingBikes - Validating error message
+12:13:16.894 [main] INFO  testCase.TC001_UpcomingBikes - ***** starting TC001_UpcomingBikes *****
+12:13:16.899 [main] INFO  testCase.TC001_UpcomingBikes - Clicking on Upcoming Bikes
+12:16:13.908 [main] INFO  testCase.TC001_UpcomingBikes - Clicking on honda brand
+12:16:45.450 [main] INFO  testCase.TC001_UpcomingBikes - Clicking on view more 
+12:16:52.073 [main] INFO  testCase.TC001_UpcomingBikes - Printing bike details
+12:16:52.125 [main] INFO  testCase.TC001_UpcomingBikes - ***** starting TC002_PopularModels *****
+12:16:52.125 [main] INFO  testCase.TC001_UpcomingBikes - Selecting used cars in Chennai
+12:16:52.157 [main] INFO  testCase.TC001_UpcomingBikes - Printing popular models
+12:16:52.168 [main] INFO  testCase.TC001_UpcomingBikes - Clicking on Zigwheels logo
+12:16:52.177 [main] INFO  testCase.TC001_UpcomingBikes - ***** starting TC003_Login *****
+12:16:52.177 [main] INFO  testCase.TC001_UpcomingBikes - Clicking on Login Button
+12:16:52.198 [main] INFO  testCase.TC001_UpcomingBikes - Selecting Google option
+12:16:52.206 [main] INFO  testCase.TC001_UpcomingBikes - Passing Incorrect email id
+12:16:52.215 [main] INFO  testCase.TC001_UpcomingBikes - Validating error message
+12:24:43.011 [main] INFO  testCase.TC001_UpcomingBikes - ***** starting TC001_UpcomingBikes *****
+12:24:43.019 [main] INFO  testCase.TC001_UpcomingBikes - Clicking on Upcoming Bikes
+12:24:53.233 [main] INFO  testCase.TC001_UpcomingBikes - Clicking on honda brand
+12:25:03.317 [main] INFO  testCase.TC001_UpcomingBikes - Clicking on view more 
+12:25:13.362 [main] INFO  testCase.TC001_UpcomingBikes - Printing bike details
+12:25:23.410 [main] INFO  testCase.TC001_UpcomingBikes - ***** starting TC002_PopularModels *****
+12:25:23.410 [main] INFO  testCase.TC001_UpcomingBikes - Selecting used cars in Chennai
+12:25:28.252 [main] INFO  testCase.TC001_UpcomingBikes - Printing popular models
+12:25:28.273 [main] INFO  testCase.TC001_UpcomingBikes - Clicking on Zigwheels logo
+12:25:28.285 [main] INFO  testCase.TC001_UpcomingBikes - ***** starting TC003_Login *****
+12:25:28.286 [main] INFO  testCase.TC001_UpcomingBikes - Clicking on Login Button
+12:25:28.303 [main] INFO  testCase.TC001_UpcomingBikes - Selecting Google option
+12:25:28.322 [main] INFO  testCase.TC001_UpcomingBikes - Passing Incorrect email id
+12:25:28.341 [main] INFO  testCase.TC001_UpcomingBikes - Validating error message
+12:27:11.001 [main] INFO  testCase.TC001_UpcomingBikes - ***** starting TC001_UpcomingBikes *****
+12:27:11.012 [main] INFO  testCase.TC001_UpcomingBikes - Clicking on Upcoming Bikes
+12:27:21.137 [main] INFO  testCase.TC001_UpcomingBikes - Clicking on honda brand
+12:27:31.237 [main] INFO  testCase.TC001_UpcomingBikes - Clicking on view more 
+12:27:41.277 [main] INFO  testCase.TC001_UpcomingBikes - Printing bike details
+12:27:51.386 [main] INFO  testCase.TC001_UpcomingBikes - ***** starting TC002_PopularModels *****
+12:27:51.387 [main] INFO  testCase.TC001_UpcomingBikes - Selecting used cars in Chennai
+12:28:03.527 [main] INFO  testCase.TC001_UpcomingBikes - Printing popular models
+12:28:25.674 [main] INFO  testCase.TC001_UpcomingBikes - Clicking on Zigwheels logo
+12:28:35.730 [main] INFO  testCase.TC001_UpcomingBikes - ***** starting TC003_Login *****
+12:28:35.730 [main] INFO  testCase.TC001_UpcomingBikes - Clicking on Login Button
+12:28:45.797 [main] INFO  testCase.TC001_UpcomingBikes - Selecting Google option
+12:28:55.872 [main] INFO  testCase.TC001_UpcomingBikes - Passing Incorrect email id
+12:29:05.939 [main] INFO  testCase.TC001_UpcomingBikes - Validating error message
+12:33:04.923 [main] INFO  testCase.TC001_UpcomingBikes - ***** starting TC001_UpcomingBikes *****
+12:33:04.928 [main] INFO  testCase.TC001_UpcomingBikes - Clicking on Upcoming Bikes
+12:33:15.116 [main] INFO  testCase.TC001_UpcomingBikes - Clicking on honda brand
+12:33:25.174 [main] INFO  testCase.TC001_UpcomingBikes - Clicking on view more 
+12:33:35.251 [main] INFO  testCase.TC001_UpcomingBikes - Printing bike details
+12:33:35.501 [main] INFO  testCase.TC001_UpcomingBikes - ***** starting TC002_PopularModels *****
+12:33:35.502 [main] INFO  testCase.TC001_UpcomingBikes - Selecting used cars in Chennai
+12:33:35.545 [main] INFO  testCase.TC001_UpcomingBikes - Printing popular models
+12:33:35.606 [main] INFO  testCase.TC001_UpcomingBikes - Clicking on Zigwheels logo
+12:33:35.643 [main] INFO  testCase.TC001_UpcomingBikes - ***** starting TC003_Login *****
+12:33:35.644 [main] INFO  testCase.TC001_UpcomingBikes - Clicking on Login Button
+12:33:35.672 [main] INFO  testCase.TC001_UpcomingBikes - Selecting Google option
+12:33:35.696 [main] INFO  testCase.TC001_UpcomingBikes - Passing Incorrect email id
+12:33:35.713 [main] INFO  testCase.TC001_UpcomingBikes - Validating error message
+12:34:24.544 [main] INFO  testCase.TC001_UpcomingBikes - ***** starting TC001_UpcomingBikes *****
+12:34:24.549 [main] INFO  testCase.TC001_UpcomingBikes - Clicking on Upcoming Bikes
+12:34:34.697 [main] INFO  testCase.TC001_UpcomingBikes - Clicking on honda brand
+12:34:41.526 [main] INFO  testCase.TC001_UpcomingBikes - Clicking on view more 
+12:34:41.554 [main] INFO  testCase.TC001_UpcomingBikes - Printing bike details
+12:34:41.577 [main] INFO  testCase.TC001_UpcomingBikes - ***** starting TC002_PopularModels *****
+12:34:41.577 [main] INFO  testCase.TC001_UpcomingBikes - Selecting used cars in Chennai
+12:34:41.606 [main] INFO  testCase.TC001_UpcomingBikes - Printing popular models
+12:34:41.633 [main] INFO  testCase.TC001_UpcomingBikes - Clicking on Zigwheels logo
+12:34:41.664 [main] INFO  testCase.TC001_UpcomingBikes - ***** starting TC003_Login *****
+12:34:41.665 [main] INFO  testCase.TC001_UpcomingBikes - Clicking on Login Button
+12:34:41.692 [main] INFO  testCase.TC001_UpcomingBikes - Selecting Google option
+12:34:41.716 [main] INFO  testCase.TC001_UpcomingBikes - Passing Incorrect email id
+12:34:41.737 [main] INFO  testCase.TC001_UpcomingBikes - Validating error message
+12:35:56.548 [main] INFO  testCase.TC001_UpcomingBikes - ***** starting TC001_UpcomingBikes *****
+12:35:56.555 [main] INFO  testCase.TC001_UpcomingBikes - Clicking on Upcoming Bikes
+12:36:06.665 [main] INFO  testCase.TC001_UpcomingBikes - Clicking on honda brand
+12:36:16.694 [main] INFO  testCase.TC001_UpcomingBikes - Clicking on view more 
+12:36:23.501 [main] INFO  testCase.TC001_UpcomingBikes - Printing bike details
+12:36:23.531 [main] INFO  testCase.TC001_UpcomingBikes - ***** starting TC002_PopularModels *****
+12:36:23.532 [main] INFO  testCase.TC001_UpcomingBikes - Selecting used cars in Chennai
+12:36:23.563 [main] INFO  testCase.TC001_UpcomingBikes - Printing popular models
+12:36:23.602 [main] INFO  testCase.TC001_UpcomingBikes - Clicking on Zigwheels logo
+12:36:23.629 [main] INFO  testCase.TC001_UpcomingBikes - ***** starting TC003_Login *****
+12:36:23.629 [main] INFO  testCase.TC001_UpcomingBikes - Clicking on Login Button
+12:36:23.658 [main] INFO  testCase.TC001_UpcomingBikes - Selecting Google option
+12:36:23.684 [main] INFO  testCase.TC001_UpcomingBikes - Passing Incorrect email id
+12:36:23.705 [main] INFO  testCase.TC001_UpcomingBikes - Validating error message
+12:47:53.745 [main] INFO  testCase.TC001_UpcomingBikes - ***** starting TC001_UpcomingBikes *****
+12:47:53.753 [main] INFO  testCase.TC001_UpcomingBikes - Clicking on Upcoming Bikes
+12:48:32.408 [main] INFO  testCase.TC001_UpcomingBikes - Clicking on honda brand
+12:49:39.379 [main] INFO  testCase.TC001_UpcomingBikes - Printing bike details
+12:49:44.294 [main] INFO  testCase.TC001_UpcomingBikes - ***** starting TC002_PopularModels *****
+12:49:44.294 [main] INFO  testCase.TC001_UpcomingBikes - Selecting used cars in Chennai
+12:50:37.281 [main] INFO  testCase.TC001_UpcomingBikes - Printing popular models
+12:50:41.554 [main] INFO  testCase.TC001_UpcomingBikes - Clicking on Zigwheels logo
+12:50:58.057 [main] INFO  testCase.TC001_UpcomingBikes - ***** starting TC003_Login *****
+12:50:58.057 [main] INFO  testCase.TC001_UpcomingBikes - Clicking on Login Button
+12:50:59.034 [main] INFO  testCase.TC001_UpcomingBikes - Selecting Google option
+12:51:26.673 [main] INFO  testCase.TC001_UpcomingBikes - Passing Incorrect email id
+12:51:27.948 [main] INFO  testCase.TC001_UpcomingBikes - Validating error message
+12:57:06.035 [main] INFO  testCase.TC001_UpcomingBikes - ***** starting TC001_UpcomingBikes *****
+12:57:06.047 [main] INFO  testCase.TC001_UpcomingBikes - Clicking on Upcoming Bikes
+12:57:17.223 [main] INFO  testCase.TC001_UpcomingBikes - Clicking on honda brand
+12:57:51.743 [main] INFO  testCase.TC001_UpcomingBikes - Clicking on view more 
+12:57:52.650 [main] INFO  testCase.TC001_UpcomingBikes - Printing bike details
+12:57:57.863 [main] INFO  testCase.TC001_UpcomingBikes - ***** starting TC002_PopularModels *****
+12:57:57.864 [main] INFO  testCase.TC001_UpcomingBikes - Selecting used cars in Chennai
+12:58:33.612 [main] INFO  testCase.TC001_UpcomingBikes - Printing popular models
+12:58:38.091 [main] INFO  testCase.TC001_UpcomingBikes - Clicking on Zigwheels logo
+12:58:43.192 [main] INFO  testCase.TC001_UpcomingBikes - ***** starting TC003_Login *****
+12:58:43.192 [main] INFO  testCase.TC001_UpcomingBikes - Clicking on Login Button
+12:58:44.144 [main] INFO  testCase.TC001_UpcomingBikes - Selecting Google option
+12:58:58.821 [main] INFO  testCase.TC001_UpcomingBikes - Passing Incorrect email id
+12:59:00.053 [main] INFO  testCase.TC001_UpcomingBikes - Validating error message
