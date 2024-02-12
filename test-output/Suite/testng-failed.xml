@@ -14,12 +14,33 @@
       </run>
     </groups>
     <classes>
+      <class name="testCase.TC002_PopularModels">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setup"/>
+          <include name="chennaiUsedCars"/>
+          <include name="popularModels"/>
+        </methods>
+      </class> <!-- testCase.TC002_PopularModels -->
+      <class name="testCase.TC003_Login">
+        <methods>
+          <include name="tearDown"/>
+          <include name="navigateToHomePge"/>
+          <include name="loginProcess"/>
+          <include name="setup"/>
+          <include name="validateErrorMessage"/>
+          <include name="inputEmailId"/>
+          <include name="selectGoogle"/>
+        </methods>
+      </class> <!-- testCase.TC003_Login -->
       <class name="testCase.TC001_UpcomingBikes">
         <methods>
           <include name="bikeDetails"/>
           <include name="viewMoreBikeBtn"/>
           <include name="tearDown"/>
           <include name="setup"/>
+          <include name="selectHondaBrand"/>
+          <include name="clickOnUpcomingBike"/>
         </methods>
       </class> <!-- testCase.TC001_UpcomingBikes -->
     </classes>

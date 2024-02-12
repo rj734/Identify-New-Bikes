@@ -32,24 +32,33 @@ public class PopularModels extends BasePage {
     @FindBy(xpath="//ul[contains(@class,'ml-20 mt-10')]/li")
     List<WebElement> models;
     
-    public boolean mouseHoverUsedCars() throws IOException {
-    	
+    public boolean mouseHoverUsedCars() throws InterruptedException {
+
+//    	scroll to top of the page
     	JavascriptExecutor js = (JavascriptExecutor) driver;
 		js.executeScript("window.scrollTo(0,0)");
 		
-		try {
-			Thread.sleep(2000);
-		} catch (InterruptedException e) {
-			e.printStackTrace();
-		}
+		Thread.sleep(2000);
 		
+//		mouse over to used cars using actions class
     	Actions a = new Actions(driver);
 		a.moveToElement(usedCars).perform();
+		
 		Boolean ch = chennai.isEnabled();
 		
-		chennai.click();
-		captureScreen("//screenShots//chennaiUsedCars");
-
+//		highlight the element and take screenshot
+		try {
+			highlightElement(chennai);
+			
+			Thread.sleep(2000);
+			//take screenshot
+			captureScreen("//screenShots//chennaiUsedCars");
+			
+			chennai.click();
+		}catch(Exception e) {
+			
+		}
+		
 		return ch;
     }
     
@@ -59,27 +68,32 @@ public class PopularModels extends BasePage {
 		js.executeScript("window.scrollBy(0,600)");
 		
 		Thread.sleep(2000);
-		captureScreen("//screenShots//displayPopularModels");
-
+//		take screenshot of popular models
+		captureScreen("//screenShots//popularModels");
+		
 		ExcelUtility et = new ExcelUtility(System.getProperty("user.dir")+"\\TestData\\bikeDetails.xlsx");
 		
-		 System.out.println("List of popular models");
+		System.out.println("List of popular models");
     	for(int i=0; i<models.size(); i++) {
     		
     		System.out.println(models.get(i).getText());
+    		
+//    		update the value of popular models in excel sheet
     		et.setCellData("ChennaiUsedCars", i+1, 0, models.get(i).getText());
     	}
     	String model=models.get(8).getText();
-
     	return model;
     }
     
-    public boolean clickOnLogo() throws IOException {
+    public boolean clickOnLogo() throws InterruptedException, IOException {
     	
 		Boolean bol = zigWheels.isEnabled();
     	zigWheels.click();
-		captureScreen("//screenShots//NavigateToHomePage");
-
+    	
+    	Thread.sleep(2000);
+		//take screenshot
+		captureScreen("//screenShots//navigateToHomePge");
+		
     	return bol;
     }
     

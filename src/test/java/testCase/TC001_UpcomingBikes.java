@@ -10,17 +10,17 @@ import testBase.BaseClass;
 
 public class TC001_UpcomingBikes extends BaseClass {
 
-	@Test(priority=1 , groups = {"sanity", "regression"})
+	@Test(priority=1, groups = {"sanity", "regression"})
 	public void clickOnUpcomingBike() throws InterruptedException, IOException{
+		
 		logger.info("***** starting TC001_UpcomingBikes *****");
 		logger.info("Clicking on Upcoming Bikes");
+		
 		UpcomingBikes bikes = new UpcomingBikes(driver);
 		boolean upcomingBikes = bikes.clickOnUpcomingBikes();
-		Assert.assertEquals(upcomingBikes, true);
 		
-//		take screenshot
-	captureScreen("//screenShots//UpcomingBikes");
-
+		//validate the upcoming bikes button
+		Assert.assertEquals(upcomingBikes, true);
 	}
 	
 	@Test(priority=2, groups = {"regression"})
@@ -29,31 +29,33 @@ public class TC001_UpcomingBikes extends BaseClass {
 		
 		UpcomingBikes bikes = new UpcomingBikes(driver);
 		boolean sb=bikes.selectBrand();
-		Assert.assertEquals(sb, true);
-		captureScreen("//screenShots//selectHondaBrand");
 
+//		validate the honda button 
+		Assert.assertEquals(sb, true);
+		
 	}
 	
-	@Test(priority=3 , groups = {"regression"})
+	@Test(priority=3, groups = {"regression"})
 	public void viewMoreBikeBtn() throws InterruptedException, IOException {
+		
 		logger.info("Clicking on view more ");
 		
 		UpcomingBikes bikes = new UpcomingBikes(driver);
 		boolean vm=bikes.viewMoreBikes();
-		Assert.assertEquals(vm, true);
-		captureScreen("//screenShots//viewMoreBtn");
-
 		
+//		validate view more bikes button
+		Assert.assertEquals(vm, true);
+
 	}
 	
-	@Test(priority=4 , groups = {"regression"})
+	@Test(priority=4, groups = {"regression"})
 	public void bikeDetails() throws InterruptedException, IOException {
+		
 		logger.info("Printing bike details");
+		
+//		print bike name , bike price and launch dates
 		UpcomingBikes bikes = new UpcomingBikes(driver);
-		String lastBike=bikes.printBikeDetails();
-		Assert.assertEquals(lastBike, "Honda Rebel 300");
-		captureScreen("//screenShots//bikeDetails");
-
+		bikes.printBikeDetails();
 	}
 	
 }

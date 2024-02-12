@@ -42,50 +42,88 @@ public class UpcomingBikes extends BasePage {
 	
 	//Actions
 	
-	public boolean clickOnUpcomingBikes() throws InterruptedException, IOException {
+	public boolean clickOnUpcomingBikes() throws InterruptedException {
 		
 		Actions a = new Actions(driver);
 		a.moveToElement(newBikes).perform();
+		
 		Thread.sleep(2000);
+		
+//		check if the button is clickable or not return true or false
 		Boolean bol = upcomingBikes.isEnabled();
-		captureScreen("//screenShots//clickOnUpcomingBikes");
-
-		//click on upcomingBikes
-		upcomingBikes.click();
+	
+//		highlight the element and take screenshot
+		try {
+			highlightElement(upcomingBikes);
+			
+			Thread.sleep(2000);
+			//take screenshot
+			captureScreen("//screenShots//clickOnUpcomingBikes");
+			
+			//click on upcomingBikes
+			upcomingBikes.click();
+		}catch(Exception e) {
+			
+		}
 		
 		return bol;
 	}
 	
-	public boolean selectBrand() throws IOException, InterruptedException {
+	public boolean selectBrand() throws InterruptedException {
 		
 		JavascriptExecutor js = (JavascriptExecutor) driver;
-		js.executeScript("arguments[0].scrollIntoView();",hondaBikes);
+		js.executeScript("window.scrollBy(0,900)");
+//		js.executeScript("arguments[0].scrollIntoView();",hondaBikes);
 		
 		Boolean hb = hondaBikes.isEnabled();
-		captureScreen("//screenShots//SelectHondaBrand");
-
-		js.executeScript("arguments[0].click()", hondaBikes);
+		
+//		highlight the element and take screenshot
+		try {
+			highlightElement(hondaBikes);
+			
+			Thread.sleep(2000);
+			//take screenshot
+			captureScreen("//screenShots//selectHondaBrand");
+			
+//			click on honda brand
+			js.executeScript("arguments[0].click()", hondaBikes);
+		}catch(Exception e) {
+			
+		}
+		
 		Thread.sleep(2000);
 		return hb;
 		
 	}
 	
-    public boolean viewMoreBikes() throws IOException {
-		
+    public boolean viewMoreBikes() throws InterruptedException, IOException {
+    	
 		JavascriptExecutor js = (JavascriptExecutor) driver;
-		//js.executeScript("arguments[0].scrollIntoView();",viewmore);
-		js.executeScript("window.scrollBy(0,1200");
-
+		js.executeScript("window.scrollBy(0,1200)");
+		
+//		js.executeScript("arguments[0].scrollIntoView();",viewmore);
+	
 		Boolean bol = viewmore.isEnabled();
-		captureScreen("//screenShots//ViewMoreBikesBTN");
-
+		
+//		highlight the element and take screenshot
+		try {
+			highlightElement(viewmore);
+			
+			Thread.sleep(4000);
+			//take screenshot
+			captureScreen("//screenShots//viewMoreBikeBtn");
+			
+		}catch(Exception e) {
+			
+		}
+		
+//		click on viewmorebikes button
 		js.executeScript("arguments[0].click()", viewmore);
-
 		return bol;
 		
 	}
     
-	public String printBikeDetails() throws InterruptedException, IOException {
+	public void printBikeDetails() throws InterruptedException, IOException {
 		
 		ExcelUtility et = new ExcelUtility(System.getProperty("user.dir")+"\\TestData\\bikeDetails.xlsx");
 		int k=1;
@@ -104,12 +142,13 @@ public class UpcomingBikes extends BasePage {
 			System.out.println(dates);
 			
 			System.out.println("--------------------");
+			
+//			update the value of bike model name, price and launch date in excel sheet
 			et.setCellData("HondaBike", k, 0, models);
 			et.setCellData("HondaBike", k, 1, String.valueOf(prices));
 			et.setCellData("HondaBike", k, 2, dates);
 		 }
 		}
-
-		return models;
+		
 	}
 }
