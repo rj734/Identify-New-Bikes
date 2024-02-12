@@ -30,7 +30,6 @@ public class TC002_PopularModels extends BaseClass {
 		PopularModels model = new PopularModels(driver);
 		String modelName=model.displayPopularModels();
 		Assert.assertEquals( modelName, "Mahindra XUV500");
-		captureScreen("//screenShots//popularModels");
 
 		
 	}
@@ -41,7 +40,6 @@ public class TC002_PopularModels extends BaseClass {
 		PopularModels model = new PopularModels(driver);
 		boolean logo=model.clickOnLogo();
 		Assert.assertEquals(logo, true);
-		captureScreen("//screenShots//HomePage");
 
 	}
 }

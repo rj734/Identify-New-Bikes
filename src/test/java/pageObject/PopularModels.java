@@ -32,7 +32,7 @@ public class PopularModels extends BasePage {
     @FindBy(xpath="//ul[contains(@class,'ml-20 mt-10')]/li")
     List<WebElement> models;
     
-    public boolean mouseHoverUsedCars() {
+    public boolean mouseHoverUsedCars() throws IOException {
     	
     	JavascriptExecutor js = (JavascriptExecutor) driver;
 		js.executeScript("window.scrollTo(0,0)");
@@ -48,6 +48,8 @@ public class PopularModels extends BasePage {
 		Boolean ch = chennai.isEnabled();
 		
 		chennai.click();
+		captureScreen("//screenShots//chennaiUsedCars");
+
 		return ch;
     }
     
@@ -57,7 +59,8 @@ public class PopularModels extends BasePage {
 		js.executeScript("window.scrollBy(0,600)");
 		
 		Thread.sleep(2000);
-		
+		captureScreen("//screenShots//displayPopularModels");
+
 		ExcelUtility et = new ExcelUtility(System.getProperty("user.dir")+"\\TestData\\bikeDetails.xlsx");
 		
 		 System.out.println("List of popular models");
@@ -67,13 +70,16 @@ public class PopularModels extends BasePage {
     		et.setCellData("ChennaiUsedCars", i+1, 0, models.get(i).getText());
     	}
     	String model=models.get(8).getText();
+
     	return model;
     }
     
-    public boolean clickOnLogo() {
+    public boolean clickOnLogo() throws IOException {
     	
 		Boolean bol = zigWheels.isEnabled();
     	zigWheels.click();
+		captureScreen("//screenShots//NavigateToHomePage");
+
     	return bol;
     }
     

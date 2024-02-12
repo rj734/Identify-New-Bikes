@@ -42,37 +42,45 @@ public class UpcomingBikes extends BasePage {
 	
 	//Actions
 	
-	public boolean clickOnUpcomingBikes() throws InterruptedException {
+	public boolean clickOnUpcomingBikes() throws InterruptedException, IOException {
 		
 		Actions a = new Actions(driver);
 		a.moveToElement(newBikes).perform();
 		Thread.sleep(2000);
 		Boolean bol = upcomingBikes.isEnabled();
-	
+		captureScreen("//screenShots//clickOnUpcomingBikes");
+
 		//click on upcomingBikes
 		upcomingBikes.click();
 		
 		return bol;
 	}
 	
-	public boolean selectBrand() {
+	public boolean selectBrand() throws IOException, InterruptedException {
 		
 		JavascriptExecutor js = (JavascriptExecutor) driver;
 		js.executeScript("arguments[0].scrollIntoView();",hondaBikes);
 		
 		Boolean hb = hondaBikes.isEnabled();
+		captureScreen("//screenShots//SelectHondaBrand");
+
 		js.executeScript("arguments[0].click()", hondaBikes);
+		Thread.sleep(2000);
 		return hb;
 		
 	}
 	
-    public boolean viewMoreBikes() {
+    public boolean viewMoreBikes() throws IOException {
 		
 		JavascriptExecutor js = (JavascriptExecutor) driver;
-		js.executeScript("arguments[0].scrollIntoView();",viewmore);
-		
+		//js.executeScript("arguments[0].scrollIntoView();",viewmore);
+		js.executeScript("window.scrollBy(0,1200");
+
 		Boolean bol = viewmore.isEnabled();
+		captureScreen("//screenShots//ViewMoreBikesBTN");
+
 		js.executeScript("arguments[0].click()", viewmore);
+
 		return bol;
 		
 	}
@@ -101,7 +109,7 @@ public class UpcomingBikes extends BasePage {
 			et.setCellData("HondaBike", k, 2, dates);
 		 }
 		}
-		
+
 		return models;
 	}
 }

@@ -36,46 +36,54 @@ public class Login extends BasePage {
 
 	// Actions
 
-	public boolean clickOnLogin() {
+	public boolean clickOnLogin() throws IOException, InterruptedException {
 
 		
 		Boolean bol = loginBtn.isEnabled();
-		
+		captureScreen("//screenShots//clickOnLogin");
+
 		loginBtn.click();
-		
+		Thread.sleep(2000);
 		return bol;
 	}
 
-	public boolean chooseGoogle() {
+	public boolean chooseGoogle() throws IOException {
 
 		Boolean bol = googleBtn.isEnabled();
+
+		captureScreen("//screenShots//SelectGoogle");
 
 		googleBtn.click();
 		
 		return bol;
 	}
 
-	public void getWindowIds() {
+	public void getWindowIds() throws InterruptedException, IOException {
 
 		Set<String> windowIds = driver.getWindowHandles();
 
 		List<String> wid = new ArrayList<String>(windowIds);
 
 		driver.switchTo().window(wid.get(1));
-		// System.out.println(wid.size());
+		emailBox.sendKeys("abcffflkkj@gmail.com");
+		Thread.sleep(2000);
+		captureScreen("//screenShots//inputEmailID");
+
 
 	}
 
-	public boolean submitEmailId() throws InterruptedException {
+	public boolean submitEmailId() throws InterruptedException, IOException {
 
-		emailBox.sendKeys("abcffflkkj@gmail.com");
 		Boolean bol = nextBtn.isEnabled();
 		
 		nextBtn.click();
+		Thread.sleep(2000);
+		captureScreen("//screenShots//clickNext");
+
 		return bol;
 	}
 	
-	public String validateErrorMsg() throws IOException {
+	public void validateErrorMsg() throws IOException {
 		ExcelUtility et = new ExcelUtility(System.getProperty("user.dir") + "\\TestData\\bikeDetails.xlsx");
 
 		String act_text = errorMsg.getText();
@@ -83,6 +91,5 @@ public class Login extends BasePage {
 		System.out.println("The error message displayed is : Couldn’t find your Google Account");
 
 		et.setCellData("GoogleLogin", 1, 0, act_text);
-		return act_text;
 	}
 }
